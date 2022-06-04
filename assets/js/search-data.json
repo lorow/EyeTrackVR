@@ -1,0 +1,345 @@
+{"0": {
+    "doc": "How to build",
+    "title": "How to build",
+    "content": " ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/How%20to%20build",
+    "relUrl": "/How to build"
+  },"1": {
+    "doc": "FAQ",
+    "title": "Frequently Asked Questions  Welcome to our FAQ!",
+    "content": ". ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"2": {
+    "doc": "FAQ",
+    "title": "\n                    What is the goal of this project?\n                ",
+    "content": "To provide an open source, affordable VR eyetracker for VR Chat and more. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"3": {
+    "doc": "FAQ",
+    "title": "\n                    What headsets will be supported?\n                ",
+    "content": "Any headset that the hardware can fit in with community mounts or a mount you design. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"4": {
+    "doc": "FAQ",
+    "title": "\n                    How will this work?\n                ",
+    "content": "Currently, a camera is mounted inside the headset for each eye. The camera streams through wifi to a PC client which processes and sends eye tracking data to VR Chat. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"5": {
+    "doc": "FAQ",
+    "title": "\n                    What features will be supported?\n                ",
+    "content": "The goal is eye tracking with eye openness, and some form of pupil dilation. A far away aspiration of this project is some form of weak foveated rendering because it's cool and any small performance increase in VR is welcome. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"6": {
+    "doc": "FAQ",
+    "title": "\n                    When will this be completed?\n                ",
+    "content": "When it's done 😉 I have a semi busy life so development may slow and speed up inconsistently. I have a goal to be done with all base features in June. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"7": {
+    "doc": "FAQ",
+    "title": "\n                    How expensive will this be?\n                ",
+    "content": "My goal is to keep it as cheap as possible with around $75 as the absolute max, with current projections being around $25-40 . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"8": {
+    "doc": "FAQ",
+    "title": "\n                    How do I set up my avatar?\n                ",
+    "content": "Check out the VR Chat face tracking wiki on our github. Keep in mind that we currently only support float parameters. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"9": {
+    "doc": "FAQ",
+    "title": "\n                    Will IR damage my eyes?\n                ",
+    "content": "This project has safety in mind. If you do all of the safety measure we put in place and visually test the amount of IR light you will be fine. Please note we have not finished development of all safety stuff so be careful aaaaa . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"10": {
+    "doc": "FAQ",
+    "title": "\n                    What hardware does this use?/How do I build?\n                ",
+    "content": "Testing is still being done to validate our current hardware choice, no hardware has been fully confirmed therefore I cannot recommend you buy parts and assemble one yourself unless you are good with losing money and are going to be actively contributing to the project. This stands true still as of 5/3. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"11": {
+    "doc": "FAQ",
+    "title": "\n                    Where's the docs?\n                ",
+    "content": "All of our documentation is located on this website, all future documentation will be found here as well. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"12": {
+    "doc": "FAQ",
+    "title": "FAQ",
+    "content": " ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/faq/",
+    "relUrl": "/faq/"
+  },"13": {
+    "doc": "Part List",
+    "title": "This page will include a basic part list for building an EyeTrackVR setup.",
+    "content": "Please note that no hardware has been fully set in stone, all purchases are at your loss if hardware changes. It is recommended to source parts from AliExpress as it is much cheaper . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/#this-page-will-include-a-basic-part-list-for-building-an-eyetrackvr-setup",
+    "relUrl": "/partslist/#this-page-will-include-a-basic-part-list-for-building-an-eyetrackvr-setup"
+  },"14": {
+    "doc": "Part List",
+    "title": "Wireless setup:",
+    "content": "2x ESP-CAM-32 modules AliExpress here . 2x ov2640 160° fov IR / Night vers 75mm (850nm) AliExpress here . 1x ESP-CAM programmer/ MB AliExpress here . All three of the above can be found in a kit from AliExpress here make sure to get 2 of the 75mm-160- 850nm version. 1x USB type-A male port to power both ESPs AliExpress here . 1x Lower gauge wire to power ESPs 28 gauge wire from AliExpress here . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/#wireless-setup",
+    "relUrl": "/partslist/#wireless-setup"
+  },"15": {
+    "doc": "Part List",
+    "title": "Wired setup",
+    "content": "2x Wired Ov5640 160 deg cameras AliExpress here . Please note: if the wired option is used, you will need to dissasemble the camera to remove the ir filters. I would reccomend getting extra cameras, either the full thing above or just the camera from AliExpress here . 1x USB type-A male port to power both IR emmitters AliExpress here . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/#wired-setup",
+    "relUrl": "/partslist/#wired-setup"
+  },"16": {
+    "doc": "Part List",
+    "title": "IR Emitters",
+    "content": "4x Unfocused SMD IR emitters Recommend ones from Digikey here (DO NOT BUY FOCUSED ONES! If they look like something you would find in a TV remote do not use them, if you aren’t sure exactly what you are doing, buy them from the Digikey link) . 4x IR emitter PCB’s (highly recommended) . 2x 698-710ohm resistors or the more recommend way, 4x 350ohm 1206 SMD resistors for IR emitters (If you are not using PCB’s for the emitters then buying regular through-hole resistors is acceptable) 357 ohm from Digikey here or 698 ohm from LCSC here . 1x Wire to power IR emitters 32 gauge wire from AliExpress here . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/#ir-emitters",
+    "relUrl": "/partslist/#ir-emitters"
+  },"17": {
+    "doc": "Part List",
+    "title": "Other parts",
+    "content": "1x Hot glue or another form of glue . 1x Soldering iron and solder (lead free solder highly recommended) . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/#other-parts",
+    "relUrl": "/partslist/#other-parts"
+  },"18": {
+    "doc": "Part List",
+    "title": "3d Printed Parts",
+    "content": "Quest 2 . Camera and IR emitter mount by Prohurtz . ESP Mount : N/A . Valve Index . Camera mount by Razgriz . IR Emitter Mount : N/A . ESP mount : N/A . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/#3d-printed-parts",
+    "relUrl": "/partslist/#3d-printed-parts"
+  },"19": {
+    "doc": "Part List",
+    "title": "3d Printed Parts For Supported Headsets",
+    "content": ". ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/",
+    "relUrl": "/partslist/"
+  },"20": {
+    "doc": "Part List",
+    "title": "\n                    Quest 2\n                ",
+    "content": "Camera and IR emitter mount by Prohurtz https://www.thingiverse.com/thing:5400548 ESP Mount : N/A . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/",
+    "relUrl": "/partslist/"
+  },"21": {
+    "doc": "Part List",
+    "title": "\n                    Valve Index\n                ",
+    "content": "Camera mount by Razgriz https://github.com/rrazgriz/IndexEyeTrackVR/tree/main/hardware IR Emitter Mount : N/A ESP mount : N/A Other Headsets . If you own another headset not listed above, that means there are no mounts designed for them yet. If you have basic skills in modeling or think up a solution to mount cams and emitters, please try to make a mount and then let us in the discord know so it can be added here. Any headset that can fit the camera is potentially compatible. If you are willing, give it a shot to design a mount for the rest of the community. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/",
+    "relUrl": "/partslist/"
+  },"22": {
+    "doc": "Part List",
+    "title": "Part List",
+    "content": " ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/partslist/",
+    "relUrl": "/partslist/"
+  },"23": {
+    "doc": "EyeTrackVR",
+    "title": "Table of contents",
+    "content": ". | Hardware | About IR Emitter Safety | Firmware | Headset support . | Licenses | . | . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/index.html#table-of-contents",
+    "relUrl": "/index.html#table-of-contents"
+  },"24": {
+    "doc": "EyeTrackVR",
+    "title": "EyeTrackVR",
+    "content": "Open source and affordable VR eye tracker platform for VRChat via OSC and UDP protocol. This project is in development and is not fully finished . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/index.html#eyetrackvr",
+    "relUrl": "/index.html#eyetrackvr"
+  },"25": {
+    "doc": "EyeTrackVR",
+    "title": "Hardware",
+    "content": "3d files for mounting brackets will be found here IR emitter files will also be located there. Hardware will hopefully be a ESP32-Cam with a 160fov ir camera. This is not confirmed and very likely could change. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/index.html#hardware",
+    "relUrl": "/index.html#hardware"
+  },"26": {
+    "doc": "EyeTrackVR",
+    "title": "About IR Emitter Safety",
+    "content": "Please exercise extreme caution when messing around with IR emitters. Once safety testing has been completed links and files will be provided for the emitters. Please do not try to make, or use any emitters unless you know exactly what you are doing as it could be very harmful for your eyes if not done correctly. When files and resources are released DO NOT BYPASS (OR NOT DO) ANY SAFETY FEATURES PUT IN PLACE. This can result in irreversible bodily harm. The safety measures were put in place to REDUCE the potential failure risk. All further safety responsibilities is on the user. This includes visually checking with an IR camera that the brightness is correct. Warning: Make sure you are using NON-focused emitters and at around 5ma total power. Effect of infrared radiation on the lens . Training-library Nir Stds . AN002_Details on photobiological safety of LED light sources . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/index.html#about-ir-emitter-safety",
+    "relUrl": "/index.html#about-ir-emitter-safety"
+  },"27": {
+    "doc": "EyeTrackVR",
+    "title": "Firmware",
+    "content": "Current testing has been with loucass003's firmware found here. There has been work for a different firmware by a community member but that has not been tested by me here. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/index.html#firmware",
+    "relUrl": "/index.html#firmware"
+  },"28": {
+    "doc": "EyeTrackVR",
+    "title": "Headset support",
+    "content": "Initial support will be Quest 2 (pcvr). Support for other headsets, comes from the community. Licenses . All software is under the MIT license. All hardware materials and designs provided here are licensed under the CERN-OHL-P hardware license. All software is under the MIT License. All documentation, including the Wiki, is under the Creative Commons CC-BY-SA-4.0 license. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/index.html#headset-support",
+    "relUrl": "/index.html#headset-support"
+  },"29": {
+    "doc": "EyeTrackVR",
+    "title": "EyeTrackVR",
+    "content": ". ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/index.html",
+    "relUrl": "/index.html"
+  },"30": {
+    "doc": "Building and uploading the firmware",
+    "title": "Building and uploading the firmware",
+    "content": "Uploading your firmware must initially be done over cable. Once you have the tracker connected to your WiFi after your first firmware update, you can opt to use OTA in the future. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/building-and-flashing-firmware/",
+    "relUrl": "/building-and-flashing-firmware/"
+  },"31": {
+    "doc": "Building and uploading the firmware",
+    "title": "1. Connect your tracker to your PC",
+    "content": "Connect a programmer board to your esp and then connect the programmer to your pc. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/building-and-flashing-firmware/#1-connect-your-tracker-to-your-pc",
+    "relUrl": "/building-and-flashing-firmware/#1-connect-your-tracker-to-your-pc"
+  },"32": {
+    "doc": "Building and uploading the firmware",
+    "title": "2. Build your firmware",
+    "content": ". | Press the build button at the bottom of Visual Studio Code. | . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/building-and-flashing-firmware/#2-build-your-firmware",
+    "relUrl": "/building-and-flashing-firmware/#2-build-your-firmware"
+  },"33": {
+    "doc": "Building and uploading the firmware",
+    "title": "3. Upload your firmware",
+    "content": ". | If you are using the OTA method, first make sure the tracker you wish to flash is turned on. | Once the firmware has been built, press the upload button to upload the firmware. | If the upload is successful, you should get an output that looks like this: . | . Congratulations! You have now successfully uploaded the firmware to your EyeTrackVR Tracker! . If you have trouble with uploading your firmware over cable check the following: . | Make sure your USB cable from the tracker is plugged firmly into your PC. | Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable). | Make sure that your drivers are up to date. | . Additionally, this can be caused by software hogging COM ports (VSCode and Cura can be the cause of this). ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/building-and-flashing-firmware/#3-upload-your-firmware",
+    "relUrl": "/building-and-flashing-firmware/#3-upload-your-firmware"
+  },"34": {
+    "doc": "Building and uploading the firmware",
+    "title": "Uploading via OTA",
+    "content": "Once you have successfully connected your trackers to your WiFi, you can use OTA to handle all future firmware updates. | Retrieve the IP of the tracker you wish to flash. The IP can be found through network monitoring applications, or by veiwing tracker output in a serial monitor. | In platformio.ini file uncomment the following lines in Visual Studio Code by removing the ;: ```ini ;upload_protocol = espota ;upload_port = 192.168.1.49 | . ``` . | Change the value of upload_port to the IP address retrieved during the first step. | Turn the tracker you wish to flash off and then on again. | Wait around 5 seconds. | Press the upload button to upload the firmware. | Repeat for as many trackers as you need. | . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/building-and-flashing-firmware/#uploading-via-ota",
+    "relUrl": "/building-and-flashing-firmware/#uploading-via-ota"
+  },"35": {
+    "doc": "Building and uploading the firmware",
+    "title": "Troubleshooting",
+    "content": "If you encountered an issue while following these steps check the FAQ. If you don’t find an answer to your question there ask in #questions channel in the discord, we will be happy to help. Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and CalliePepper#0666. Edited by CalliePepper#0666 and Emojikage#3095. Credit goes to the SlimeVR team adapted from here . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/building-and-flashing-firmware/#troubleshooting",
+    "relUrl": "/building-and-flashing-firmware/#troubleshooting"
+  },"36": {
+    "doc": "Wiring Guide",
+    "title": "Basic Full Wiring Diagram With IR PCBs",
+    "content": ". ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/wireguide#basic-full-wiring-diagram-with-ir-pcbs",
+    "relUrl": "/wireguide#basic-full-wiring-diagram-with-ir-pcbs"
+  },"37": {
+    "doc": "Wiring Guide",
+    "title": "IR PCB Emitter Back Side Wiring for 2 Resistors (reccomended)",
+    "content": ". The 2 350ohm resistors should connect the each side of the resistor pad and NOTHING ELSE. Its important that it does not touch any other pad. Alternatively you can wire it like the 1 resistor one, but add a secondary one in the 5v in wire. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/wireguide#ir-pcb-emitter-back-side-wiring-for-2-resistors-reccomended",
+    "relUrl": "/wireguide#ir-pcb-emitter-back-side-wiring-for-2-resistors-reccomended"
+  },"38": {
+    "doc": "Wiring Guide",
+    "title": "IR PCB Emitter Back Side Wiring for 1 700-710 ohm Resistor (not reccomended)",
+    "content": ". ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/wireguide#ir-pcb-emitter-back-side-wiring-for-1-700-710-ohm-resistor-not-reccomended",
+    "relUrl": "/wireguide#ir-pcb-emitter-back-side-wiring-for-1-700-710-ohm-resistor-not-reccomended"
+  },"39": {
+    "doc": "Wiring Guide",
+    "title": "Wiring Guide",
+    "content": " ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/wireguide",
+    "relUrl": "/wireguide"
+  },"40": {
+    "doc": "About",
+    "title": "Key Members",
+    "content": "Meet the Team! . | Prohurtz - Initiator / Moderator / Lead Developer . | Summer - Machine Learning Engineer / Data Scientist / Developer . | lorow - Software Developer / Developer . | . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/about/#key-members",
+    "relUrl": "/about/#key-members"
+  },"41": {
+    "doc": "About",
+    "title": "Contributors",
+    "content": "Individuals . | DaOfficialWizard - Lead Documentation Manager | . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/about/#contributors",
+    "relUrl": "/about/#contributors"
+  },"42": {
+    "doc": "About",
+    "title": "Philosophy",
+    "content": "The Resources section of this website includes some of our teams own notes (not all of them are polished) that we disclose for other people to use. There, we hope you may find something useful to you. We advocate the Open Source model. This is why we strive to make our work open to other people for consultation, replication and reuse. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/about/#philosophy",
+    "relUrl": "/about/#philosophy"
+  },"43": {
+    "doc": "About",
+    "title": "About",
+    "content": "EyeTrackVR developers are a group of people who are passionate about the field of augmented and virtual reality. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/about/",
+    "relUrl": "/about/"
+  },"44": {
+    "doc": "Comments and Suggestions",
+    "title": "Comments and Suggestions",
+    "content": "Comments . Load Comments . Load Older Comments There are currently no comments on this article, be the first to add one below . Add a Comment . Note that we may remove comments for any reason, so try to be civil. If you are looking for a response to your comment, either leave your email address or check back on this page periodically. | . | | Post | . This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/_pages/comments/",
+    "relUrl": "/_pages/comments/"
+  },"45": {
+    "doc": "Contact Us",
+    "title": "Contact Us",
+    "content": "Please join our Discord for updates and any questions. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/contact/",
+    "relUrl": "/contact/"
+  },"46": {
+    "doc": "Setting Up Firmware",
+    "title": "Setting up the environment",
+    "content": "This procedure will show how to prepare your system for uploading the firmware to your tracker. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/setting-up-firmware-enviroment/#setting-up-the-environment",
+    "relUrl": "/setting-up-firmware-enviroment/#setting-up-the-environment"
+  },"47": {
+    "doc": "Setting Up Firmware",
+    "title": "1. Install Visual Studio Code",
+    "content": "Download the latest Visual Studio Code and install it. Download . Install . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/setting-up-firmware-enviroment/#1-install-visual-studio-code",
+    "relUrl": "/setting-up-firmware-enviroment/#1-install-visual-studio-code"
+  },"48": {
+    "doc": "Setting Up Firmware",
+    "title": "2. Install PlatformIO IDE",
+    "content": "Once Visual Studio Code is installed, open it and install PlatformIO IDE for VSCode, an extension that will allow you to connect to the tracker, build and upload the firmware. Credit goes to the SlimeVR team adapted from here . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/setting-up-firmware-enviroment/#2-install-platformio-ide",
+    "relUrl": "/setting-up-firmware-enviroment/#2-install-platformio-ide"
+  },"49": {
+    "doc": "Setting Up Firmware",
+    "title": "Setting Up Firmware",
+    "content": " ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/setting-up-firmware-enviroment/",
+    "relUrl": "/setting-up-firmware-enviroment/"
+  },"50": {
+    "doc": "Privacy Policy",
+    "title": "Privacy Policy",
+    "content": "The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/privacy/",
+    "relUrl": "/privacy/"
+  },"51": {
+    "doc": "Privacy Policy",
+    "title": "Designation of the responsible authority",
+    "content": "The persons responsible for data processing on this website are: . RedHawk989 &amp; ZanzyTHEbar . The responsible body(s) decides alone or jointly with others on the purposes and means of processing personal data (e.g. names, contact details, etc.). ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/privacy/#designation-of-the-responsible-authority",
+    "relUrl": "/privacy/#designation-of-the-responsible-authority"
+  },"52": {
+    "doc": "Privacy Policy",
+    "title": "Log Files",
+    "content": "Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include: . | Internet Protocol addresses (IP) | Types of browser | Internet Service Provider (ISP) | Date and time stamp | Referring and exit pages | Number of clicks | . All of this information is not linked to anything that is personally identifiable. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/privacy/#log-files",
+    "relUrl": "/privacy/#log-files"
+  },"53": {
+    "doc": "Privacy Policy",
+    "title": "Cookies and Web Beacons",
+    "content": "I use cookies on this site to store limited information about how you interact with the site. In line with EU legislation, I have identified several different types of cookies: . | Strictly necessary cookies. | I set a cookie to store your acceptance of my cookie policy. This expires after 31 days. | . | Preferences cookies to remember your preferences. These are not used on this website. | Statistics cookies that allow me to see how my audience uses the website. I use: . | Google Analytics | . | Marketing cookies to help advertisers deliver relevant content are not used on this website. | . ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/privacy/#cookies-and-web-beacons",
+    "relUrl": "/privacy/#cookies-and-web-beacons"
+  },"54": {
+    "doc": "Privacy Policy",
+    "title": "Google Analytics",
+    "content": "Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. Individual IP addresses are anonymized. You can read Google Analytics Privacy Policy. Objection to data collection . You can prevent the collection of your data by Google Analytics by clicking on the following link https://tools.google.com/dlpage/gaoptout. An opt-out cookie is set to prevent the collection of your information on future visits to our site: Disable Google Analytics. Details on how Google Analytics handles user data can be found in the Google privacy policy: https://support.google.com/analytics/answer/6004245. Demographic characteristics at Google Analytics . This website uses the function “demographic characteristics” of Google Analytics. It can be used to generate reports that contain information about the age, gender and interests of visitors to the site. This data comes from interest-based advertising by Google as well as from visitor data from third parties. It is not possible to assign the data to a specific person. You can deactivate this function at any time. You can do this through the ad settings in your Google Account or by generally prohibiting the collection of your data by Google Analytics, as explained in the section “Opting out of data collection”. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/privacy/#google-analytics",
+    "relUrl": "/privacy/#google-analytics"
+  },"55": {
+    "doc": "Privacy Policy",
+    "title": "Google Web Fonts",
+    "content": "This website uses Web Fonts from Google. The provider is Google Inc, 1600 Amphitheater Parkway, Mountain View, CA 94043, USA. The use of Google Fonts allows me to present this website using my choice of fonts, regardless of the fonts that are installed locally. This is done by retrieving the Google Web Fonts from a Google server in the USA and the associated transfer of your data to Google. This data is your IP address and which page you have visited on this website. The use of Google Web Fonts is based on Art. 6 para. 1 lit. f DSGVO. As the operator of this website, I have a legitimate interest in the optimal display and transmission of my web presence. The company Google is certified for the US-European data protection convention “Privacy Shield”. This data protection agreement is intended to ensure compliance with the level of data protection applicable in the EU. Details about Google Web Fonts can be found here: https://www.google.com/fonts#AboutPlace:about and further information in the Google Privacy Policy: https://policies.google.com/privacy/partners. ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/privacy/#google-web-fonts",
+    "relUrl": "/privacy/#google-web-fonts"
+  },"56": {
+    "doc": "Suggestions",
+    "title": "Suggestions",
+    "content": " ",
+    "url": "https://redhawk989.github.io/EyeTrackVR/suggestions.html",
+    "relUrl": "/suggestions.html"
+  }
+}
+
